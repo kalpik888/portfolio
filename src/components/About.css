@@ -1,0 +1,44 @@
+/* src/components/About.css */
+#about {
+    background-color: rgb(103, 13, 96);
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: black  
+  }
+  
+  .typewriter {
+    font-size: 1.2rem;
+    color: black  ;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #007bff; /* Cursor effect */
+    width: 0;
+    animation: typing 4s steps(40, end), deleting 8s steps(40, end) 4s forwards, blink-caret 1s step-end infinite;
+  }
+  
+  /* Typing animation */
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  /* Deleting animation */
+  @keyframes deleting {
+    from { width: 100%; }
+    to { width: 0; }
+  }
+  
+  /* Blinking cursor */
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #007bff; }
+  }
+  

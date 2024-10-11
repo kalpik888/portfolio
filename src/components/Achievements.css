@@ -1,0 +1,42 @@
+/* src/components/Achievements.css */
+#achievements {
+    background-color: rgb(103, 13, 96);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#achievements h2 {
+    color: black;
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+}
+
+#achievements ul {
+    display: flex;                    /* Use Flexbox for layout */
+    flex-wrap: wrap;                 /* Allow items to wrap */
+    justify-content: center;          /* Center the items */
+    padding: 0;                      /* Remove default padding */
+    list-style-type: none;           /* Remove bullet points */
+    margin: 0 auto;                  /* Center the list */
+}
+
+#achievements li {
+    margin: 10px;                    /* Space between items */
+    color: black;                     /* Color for the list items */
+    background-color: #b88c8c;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(45% - 20px);         /* Set width to about 45% for two items per line */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;                   /* Use Flexbox for item layout */
+    align-items: center;             /* Center items vertically */
+    justify-content: center;         /* Center items horizontally */
+}
+
+.project-card {
+    background-color: #b88c8c;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

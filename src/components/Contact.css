@@ -1,0 +1,40 @@
+/* src/components/Contact.css */
+#contact {
+    background-color: rgb(103, 13, 96);/* Optional: Background color */
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    color: black  ;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info {
+    display: flex;        /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the items */
+    flex-wrap: wrap;     /* Allow wrapping if necessary */
+    gap: 20px;           /* Space between items */
+  }
+  
+  .contact-info span {
+    display: flex;       /* Use flex for inline elements */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .contact-info a {
+    color: #2b66a4; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin-left: 5px; /* Space between label and link */
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
